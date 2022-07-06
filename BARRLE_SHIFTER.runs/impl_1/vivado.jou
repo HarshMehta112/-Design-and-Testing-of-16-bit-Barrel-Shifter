@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 10:25:24 2021
+# Process ID: 19112
+# Current directory: D:/Xilinx/BARRLE_SHIFTER/BARRLE_SHIFTER.runs/impl_1
+# Command line: vivado.exe -log barrel_org.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source barrel_org.tcl -notrace
+# Log file: D:/Xilinx/BARRLE_SHIFTER/BARRLE_SHIFTER.runs/impl_1/barrel_org.vdi
+# Journal file: D:/Xilinx/BARRLE_SHIFTER/BARRLE_SHIFTER.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source barrel_org.tcl -notrace

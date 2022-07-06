@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 10:14:42 2021
+# Process ID: 9612
+# Current directory: D:/Xilinx/BARRLE_SHIFTER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1304 D:\Xilinx\BARRLE_SHIFTER\BARRLE_SHIFTER.xpr
+# Log file: D:/Xilinx/BARRLE_SHIFTER/vivado.log
+# Journal file: D:/Xilinx/BARRLE_SHIFTER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/BARRLE_SHIFTER/BARRLE_SHIFTER.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_ssn -name ssn_1
+report_operating_conditions -grade -return_string
+report_power -name {power_1}
